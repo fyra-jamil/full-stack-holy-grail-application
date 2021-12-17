@@ -7,7 +7,7 @@ var client = redis.createClient();
 // serve static files from public directory
 app.use(express.static("public"));
 
-//TODO
+//TODO : assignment
 // init values
 client.mset("header", 0, "left", 0, "article", 0, "right", 0, "footer", 0);
 client.mget(
